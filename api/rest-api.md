@@ -6,17 +6,17 @@ URL: http://localhost:9000/api/
 
 ## Endpoints
 
-### `/playback/`
+{% tabs %}
+{% tab title="/playback" %}
+| Endpoint   | Description                               |
+| ---------- | ----------------------------------------- |
+| /playpause | Toggle between play and pause             |
+| /play      | Play                                      |
+| /pause     | Pause                                     |
+| /stop      | Stop the current song                     |
+| /next      | Skip to the next song in the queue        |
+| /previous  | Go back to the previous song in the queue |
 
-`/playpause` - Toggle between play and pause
 
-`/play` - Play
-
-`/pause`- Pause
-
-`/stop` - Stop the current song
-
-`/next`- Skip to the next song in the queue
-
-`/previous` - Go back to the previous song in the queue
-
+{% endtab %}
+{% endtabs %}
