@@ -15,7 +15,7 @@ Recommended / Required Development Utilities
 * yarn (Optional, but highly recommended)
 * Git SCM ([https://git-scm.com/](https://git-scm.com))
 * Python 3.8< ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-* Xcode 11+ ([https://developer.apple.com/xcode/])
+* Xcode 11+ ([https://developer.apple.com/xcode/](https://developer.apple.com/xcode/))
 * An Apple Developer account (one that cost money) (so that Cider would actually **plays song**)
 * Basic Command Line Knowledge
 
