@@ -80,6 +80,19 @@ On some low-end machines this process could take up to \~10 minutes.
 This command would build 3 seperate packages of Cider, AppImage, .deb, and .snap packages
 {% endhint %}
 
+### Compiling Cider from AUR
+
+BTW, if you have an arch/ arch-based distro, then you are in luck. As Cider has a PKGBUILD in the Arch User Repository.
+
+Assuming you already have access to the AUR and have a friendly AUR helper (we will use `yay` for this example) enter the following command to automatically obtain all required dependencies for installation.
+
+```
+yay -Ss cider
+```
+{% hint style="warning" %}
+Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to ```nodejs-lts-gallium``` to resolve this issue.
+{% endhint %}
+
 ### Installing Cider
 
 Your new Cider installation setup file is ready for you! You can find your setup executable in your cloned folder directory on your system in the subfolder `dist/` and from there you'll see your new Setup files. Choose the installer that best matches your distro.
