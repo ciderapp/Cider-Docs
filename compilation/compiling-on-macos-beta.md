@@ -105,7 +105,7 @@ Refreshing authorization token(s)
 
 2. After that, select all of the certificates in Keychain Access to generate as a .p12 file. Remember the file location and the .p12 password.
 
-3. Generate the app-specific password of your Apple Developer account ([https://support.apple.com/en-us/HT204397])
+3. ([https://support.apple.com/en-us/HT204397](Generate)) the app-specific password of your Apple Developer account 
 
 
 ### Setting up environment variables.
