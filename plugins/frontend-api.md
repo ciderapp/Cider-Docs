@@ -1,4 +1,10 @@
-# Frontend Development
+---
+description: >-
+  This page contains documentation on the functions included in the
+  CiderFrontAPI.
+---
+
+# Frontend API
 
 <details>
 
@@ -34,7 +40,7 @@ Additional resources in the plugins such as images and other files can be access
 
 <details>
 
-<summary>Importing Custom Styhesheets</summary>
+<summary>Importing Custom Stylesheets</summary>
 
 Example:
 
