@@ -81,7 +81,7 @@ yarn dist -w --ia32
 ```
 
 {% hint style="warning" %}
-On some low-end machines this process could take up to 5\~ minutes.
+On some low-end machines this process could take up to \~5 minutes.
 {% endhint %}
 
 ### Installing Cider
