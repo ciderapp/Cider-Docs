@@ -86,6 +86,10 @@ If you are on an arch-based Linux distribution and have an AUR helper (pacman/ya
 
 Assuming you already have access to the AUR and have a friendly AUR helper (we will use `yay` for this example) enter the following command to automatically obtain all required dependencies for installation.
 
+{% hint style="info" %}
+If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [develop](https://github.com/ciderapp/Cider/tree/develop) branch.
+{% endhint %}
+
 ```
 yay -S cider
 ```
@@ -93,12 +97,6 @@ yay -S cider
 {% hint style="warning" %}
 Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to ```nodejs-lts-gallium``` to resolve this issue.
 {% endhint %}
-
-{% hint style="info" %}
-If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [develop](https://github.com/ciderapp/Cider/tree/develop) branch.
-{% endhint %}
-
-
 
 ### Installing Cider
 
