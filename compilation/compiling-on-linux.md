@@ -94,7 +94,7 @@ yay -S cider
 Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to ```nodejs-lts-gallium``` to resolve this issue.
 {% endhint %}
 
-{% hint style="info}
+{% hint style="info" %}
 If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [develop](https://github.com/ciderapp/Cider/tree/develop) branch.
 {% endhint %}
 
