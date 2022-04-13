@@ -11,7 +11,7 @@ description: >-
 Recommended / Required Development Utilities
 
 * [NodeJS 14.0.0 or greater](https://nodejs.org/)
-* [yarn](https://yarnpkg.com/)(Optional, but highly recommended)
+* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
 * [Git](https://git-scm.com)
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
