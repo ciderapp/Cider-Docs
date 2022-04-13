@@ -79,3 +79,14 @@ Cider plugins support these methods by default, however more can be made with th
 
 </details>
 
+### Cider Frontend API (CiderFrontAPI)
+
+stuff.
+
+### App Functions/Methods (app.\*)
+
+more stuff
+
+### Cider Audio (CiderAudio)
+
+stuff stuff x2
