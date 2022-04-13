@@ -81,12 +81,24 @@ Cider plugins support these methods by default, however more can be made with th
 
 ### Cider Frontend API (CiderFrontAPI)
 
-stuff.
+| Function/Method   | Usage | Details |
+| ----------------- | ----- | ------- |
+| StyleSheets.Add   |       |         |
+| AddMenuEntry      |       |         |
+| Objects.MenuEntry |       |         |
 
 ### App Functions/Methods (app.\*)
 
-more stuff
+| Function/Method | Usage | Details |
+| --------------- | ----- | ------- |
+|                 |       |         |
+|                 |       |         |
+|                 |       |         |
 
 ### Cider Audio (CiderAudio)
 
-stuff stuff x2
+| Function/Method | Usage | Details |
+| --------------- | ----- | ------- |
+|                 |       |         |
+|                 |       |         |
+|                 |       |         |
