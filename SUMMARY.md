@@ -10,8 +10,9 @@
 
 ## 🎨 Themes
 
-* [Theme Stylesheets](themes/theme-stylesheets.md)
-* [Creating a Basic Theme](themes/creating-a-basic-theme.md)
+* [Creating a theme](themes/theme-stylesheets.md)
+* [Theme definitions (theme.json)](themes/theme-definitions-theme.json.md)
+* [Using Resources in Themes](themes/using-resources-in-themes.md)
 * [Publishing to GitHub](themes/publishing-to-github.md)
 
 ## 🔌 Plugins
