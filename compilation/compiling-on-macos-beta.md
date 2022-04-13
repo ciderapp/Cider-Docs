@@ -89,6 +89,16 @@ Refreshing authorization token(s)
 
 Remember your account name and password because you will need it later.
 
+Once in a while , you may need to re-authenticate the VMP account. If that is the case:
+
+```
+python3 -m castlabs_evs.account reauth
+Discarding authorization token(s)
+Refreshing authorization token(s)
+>> Account Name [example]: 
+>> Password []: XXXXXXXX
+```
+
 ### Create Apple signing keys and app-specific password.
 
 1. In Xcode: Under ```Xcode > Preferences (⌘,) > Accounts```, you may add your Apple ID. With your team selected, the View Details... in the bottom right could find you the available certificates for generation/download. 
