@@ -10,12 +10,12 @@ description: >-
 
 Recommended / Required Development Utilities
 
-* NodeJS (<16.x.x)
-* yarn (Optional, but highly recommended)
-* Git SCM ([https://git-scm.com/](https://git-scm.com))
-* Python 3.8< ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-* windows-build-tools (Read Info)
+* [NodeJS 14.0.0 or greater](https://nodejs.org/)
+* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
+* [Git](https://git-scm.com)
+* [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
+* [windows-build-tools](https://github.com/nodejs/node-gyp#on-windows)
 
 {% hint style="warning" %}
 Yarn while not required it's **recommended** for compiling Cider and you can install it by using:
@@ -24,7 +24,7 @@ Yarn while not required it's **recommended** for compiling Cider and you can ins
 {% endhint %}
 
 {% hint style="danger" %}
-You need windows-build-tools to be able to compile the native modules Cider uses for Windows. You can install it using yarn/npm in an **administrator** powershell/cmd window and entering:
+You need windows-build-tools to be able to compile the native modules Cider uses for Windows. It should be installed with Node.js through the chocolatey package manager. If the installation fails you can install it using yarn/npm in an **administrator** powershell/cmd window and entering:
 
 `yarn install -g windows-build-tools`
 
