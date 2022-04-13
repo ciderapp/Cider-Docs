@@ -12,8 +12,8 @@ Recommended / Required Development Utilities
 
 * NodeJS (<16.x.x)
 * yarn (Optional, but highly recommended)
-* Git SCM ([https://git-scm.com/](https://git-scm.com))
-* Python 3.8< ([https://www.python.org/downloads/](https://www.python.org/downloads/))
+* [Git](https://git-scm.com)
+* [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
 
 {% hint style="warning" %}
