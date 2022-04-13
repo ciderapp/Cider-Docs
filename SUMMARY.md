@@ -2,7 +2,7 @@
 
 * [👋 Welcome to the Cider Docs!](README.md)
 
-## 💻 Compilation&#x20;
+## 💻 Compilation
 
 * [Compiling on Windows](compilation/compiling-on-windows.md)
 * [Compiling on Linux](compilation/compiling-on-linux.md)
@@ -16,9 +16,12 @@
 
 ## 🔌 Plugins
 
+* [Renderer](plugins/renderer.md)
+* [Frontend Development](plugins/frontend-development.md)
 * [Plugin FAQ](plugins/plugin-faq.md)
 * [Creating a Basic Plugin](plugins/creating-a-basic-plugin.md)
 * [Publishing to GitHub](plugins/publishing-to-github.md)
+* [Additional Links](plugins/additional-links.md)
 
 ## 🗣 Locales
 

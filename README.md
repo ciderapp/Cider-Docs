@@ -4,6 +4,7 @@ description: >-
   and theme Cider!
 cover: .gitbook/assets/Screenshot 2022-03-27 212122.png
 coverY: 317.1806167400881
+layout: landing
 ---
 
 # 👋 Welcome to the Cider Docs!
