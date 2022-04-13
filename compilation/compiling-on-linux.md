@@ -10,8 +10,8 @@ description: >-
 
 Recommended / Required Development Utilities
 
-* NodeJS 16.0.0 or greater
-* yarn (Optional, but highly recommended)
+* [NodeJS 14.0.0 or greater](https://nodejs.org/)
+* [yarn](https://yarnpkg.com/)(Optional, but highly recommended)
 * [Git](https://git-scm.com)
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
