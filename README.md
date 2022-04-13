@@ -4,14 +4,13 @@ description: >-
   and theme Cider!
 cover: .gitbook/assets/Screenshot 2022-03-27 212122.png
 coverY: 317.1806167400881
-layout: editorial
 ---
 
 # 👋 Welcome to the Cider Docs!
 
 ### Let's get started!
 
-Pick a category and sub-category you'd like to learn more about!
+Pick a category and sub-category you'd like to learn more about or use the sidebar/hamburger menu on your left!
 
 {% tabs %}
 {% tab title="Building" %}
