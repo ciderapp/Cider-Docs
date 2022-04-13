@@ -1,3 +1,9 @@
+---
+description: >-
+  This page contains all the required documentation for the Renderer and its
+  functions/events.
+---
+
 # Renderer
 
 <details>
@@ -17,7 +23,7 @@ When plugins are loaded in Cider the `constructor()` in the plugin class is pass
 
 <details>
 
-<summary>Load a front end plugin</summary>
+<summary>Loading frontend plugin(s)</summary>
 
 To load a front end plugin (typically named `index.frontend.js`) from `index.js` `PluginEnv.utils.loadJSFrontend(path: string)` is used.
 

@@ -18,7 +18,6 @@
 
 * [Renderer](plugins/renderer.md)
 * [Frontend Development](plugins/frontend-development.md)
-* [Plugin FAQ](plugins/plugin-faq.md)
 * [Creating a Basic Plugin](plugins/creating-a-basic-plugin.md)
 * [Publishing to GitHub](plugins/publishing-to-github.md)
 * [Additional Links](plugins/additional-links.md)
