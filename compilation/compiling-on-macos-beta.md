@@ -113,9 +113,9 @@ Refreshing authorization token(s)
 
 ```
 export CSC_LINK= <location to the p12 certificate>
-export CSC_KEY_PASSWORD: <p12 certificate password>
-export APPLEID: <your Apple Developer email address>
-export APPLEIDPASS: <your Apple Developer app-specific password>
+export CSC_KEY_PASSWORD= <p12 certificate password>
+export APPLEID= <your Apple Developer email address>
+export APPLEIDPASS= <your Apple Developer app-specific password>
 ```
 
 You can set the environment variables permanently by edit the ```~/.bash-profile``` file and add the above lines at the bottom of the file.
