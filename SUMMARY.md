@@ -23,10 +23,10 @@
 * [Publishing to GitHub](plugins/publishing-to-github.md)
 * [Additional Links](plugins/additional-links.md)
 
-## 🔗 API
+## 🔗 Client API
 
-* [REST API](api/rest-api.md)
-* [WebSockets API](api/websockets-api.md)
+* [REST API](client-api/rest-api.md)
+* [WebSockets API](client-api/websockets-api.md)
 
 ## 🗣 Locales
 
