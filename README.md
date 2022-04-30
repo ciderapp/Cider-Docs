@@ -13,10 +13,11 @@ coverY: 317.1806167400881
 Pick a category and sub-category you'd like to learn more about or use the sidebar/hamburger menu on your left!
 
 {% tabs %}
+
 {% tab title="Building" %}
-{% page-ref page="compilation/compiling-on-windows.md" %}
-{% page-ref page="compilation/compiling-on-linux.md" %}
-{% page-ref page="compilation/compiling-on-macos-beta.md" %}
+{% content-ref url="compilation/compiling-on-windows.md" %}
+{% content-ref url="compilation/compiling-on-linux.md" %}
+{% content-ref url="compilation/compiling-on-macos-beta.md" %}
 {% endtab %}
 
 {% tab title="Development" %}
