@@ -22,6 +22,7 @@
 * [Creating a Basic Plugin](plugins/creating-a-basic-plugin.md)
 * [Publishing to GitHub](plugins/publishing-to-github.md)
 * [Additional Links](plugins/additional-links.md)
+* [Unsorted Features](plugins/unsorted-features.md)
 
 ## 🔗 Client API
 
