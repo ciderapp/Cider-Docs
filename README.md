@@ -16,7 +16,11 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% tab title="Building" %}
 {% content-ref url="compilation/compiling-on-windows.md" %}
 [Compiling on Windows](compilation/compiling-on-windows.md)
+{% endcontent-ref %}
+{% content-ref url="compilation/compiling-on-linux.md" %}
 [Compiling on Linux](compilation/compiling-on-linux.md)
+{% endcontent-ref %}
+{% content-ref url="compilation/compiling-on-macos.md" %}
 [Compiling on macOS](compilation/compiling-on-macos.md)
 {% endcontent-ref %}
 {% endtab %}
