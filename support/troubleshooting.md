@@ -8,10 +8,8 @@ Troubleshooting can be done in a series of ways. Below is a list of the current 
 * A clean installation can be done by doing the following guide associated with your operating system:
 
 {% hint style="warning" %}
-Note: This will remove your login state, settings and followed artists.
+Note: This will remove your current login state and unsynced data (Settings, Followed Artists).
 {% endhint %}
-
-***
 
 <details>
 <summary>Windows</summary>
@@ -24,8 +22,6 @@ Note: This will remove your login state, settings and followed artists.
 3. Reinstall `Cider`.
 </details>
 
-***
-
 <details>
 <summary>Linux</summary>
 
@@ -33,8 +29,6 @@ Note: This will remove your login state, settings and followed artists.
 2. Delete the `.config/Cider` folder. (*If its present*)
 3. Reinstall `Cider`.
 </details>
-
-***
 
 <details>
 <summary>macOS</summary>
