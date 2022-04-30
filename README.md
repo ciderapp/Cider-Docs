@@ -15,7 +15,9 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% tabs %}
 {% tab title="Building" %}
 {% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+[Compiling on Windows](compilation/compiling-on-windows.md)
+[Compiling on Linux](compilation/compiling-on-linux.md)
+[Compiling on macOS](compilation/compiling-on-macos.md)
 {% endcontent-ref %}
 {% endtab %}
 
