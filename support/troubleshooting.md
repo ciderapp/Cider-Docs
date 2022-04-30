@@ -5,8 +5,10 @@ description: Some useful steps to resolving your issues.
 Troubleshooting can be done in a series of ways. Below is a list of the current methods you can troubleshoot issues with the application.
 
 ## 1: **Clean Installation**
+
 <details>
-<summary>Steps to Perform for a Clean Installation</summary>
+    <summary>Steps to Perform for a Clean Installation</summary>
+
     * A clean installation can be done by doing the following guide associated with your operating system:
 
     {% hint style="warning" %}
@@ -14,29 +16,30 @@ Troubleshooting can be done in a series of ways. Below is a list of the current 
     {% endhint %}
 
     <details>
-        <summary>Windows</summary>
+    <summary>Windows</summary>
 
-        1. Uninstall the `Cider` application using the control panel.
-        2. Delete the following folders: 
-        * `%appdata%/Cider` (*If its present*)
-        * `%LOCALAPPDATA%\Programs\cider` (*If its present*)
-        * `%LOCALAPPDATA%\cider-updater` (*If its present*)
-        3. Reinstall `Cider`.
+    1. Uninstall the `Cider` application using the control panel.
+    2. Delete the following folders: 
+    * `%appdata%/Cider` (*If its present*)
+    * `%LOCALAPPDATA%\Programs\cider` (*If its present*)
+    * `%LOCALAPPDATA%\cider-updater` (*If its present*)
+    3. Reinstall `Cider`.
     </details>
 
     <details>
-        <summary>Linux</summary>
+    <summary>Linux</summary>
 
-        1. Uninstall the `Cider` application using your system uninstaller.
-        2. Delete the `.config/Cider` folder. (*If its present*)
-        3. Reinstall `Cider`.
+    1. Uninstall the `Cider` application using your system uninstaller.
+    2. Delete the `.config/Cider` folder. (*If its present*)
+    3. Reinstall `Cider`.
     </details>
 
     <details>
-        <summary>macOS</summary>
+    <summary>macOS</summary>
 
-        1. Delete the `Cider.app` file from your Applications folder.
-        2. Delete the `Library/Application Support/Cider` folder. (*If its present*)
-        3. Reinstall `Cider`
+    1. Delete the `Cider.app` file from your Applications folder.
+    2. Delete the `Library/Application Support/Cider` folder. (*If its present*)
+    3. Reinstall `Cider`
     </details>
+    
 </details>
