@@ -33,3 +33,7 @@
 
 * [Editing/Adding Locales](locales/editing-adding-locales.md)
 * [Creating a Pull Request](locales/creating-a-pull-request.md)
+
+## ✋ Support
+
+* [Troubleshooting](support/troubleshooting.md)
