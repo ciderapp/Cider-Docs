@@ -1,7 +1,3 @@
----
-description: FAQs to assist you with using Cider.
----
-
 ## How to Find the Application Data Directory
 
 The location of your application data varies depending on your operating system.

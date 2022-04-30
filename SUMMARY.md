@@ -37,4 +37,4 @@
 ## ✋ Support
 
 * [Troubleshooting](support/troubleshooting.md)
-* [Support FAQs](support/faqs.md)
+* [FAQ](support/faqs.md)
