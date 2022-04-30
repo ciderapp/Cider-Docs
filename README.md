@@ -27,19 +27,32 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% endtab %}
 
 {% tab title="Development" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="plugins/creating-a-basic-plugin.md" %}
+[Creating a Basic Plugin](plugins/creating-a-basic-plugin.md)
 {% endcontent-ref %}
-{% endtab %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="plugins/renderer.md" %}
+[Plugin Renderer](plugins/renderer.md)
+{% endcontent-ref %}
+{% content-ref url="plugins/frontend-api.md" %}
+[Frontend API](plugins/frontend-api.md)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Languages" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="locales/editing-adding-locales.md" %}
+[Adding or Editing Locales](locales/editing-adding-locales.md)
+{% endcontent-ref %}
+{% content-ref url="locales/creating-a-pull-request.md" %}
+[Creating a Pull Request](locales/creating-a-pull-request.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Support" %}
+{% content-ref url="support/troubleshooting.md" %}
+[Troubleshooting Tips](support/troubleshooting.md)
+{% endcontent-ref %}
+{% content-ref url="support/faqs.md" %}
+[FAQs](support/faqs.md)
 {% endcontent-ref %}
 {% endtab %}
 
