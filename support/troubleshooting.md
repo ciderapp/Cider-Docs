@@ -12,7 +12,6 @@ Note: This will remove your current login state and unsynced data (Settings, Fol
 {% endhint %}
 
 <details>
-<summary>Windows</summary>
 
 1. Uninstall the `Cider` application using the control panel.
 2. Delete the following folders: 
