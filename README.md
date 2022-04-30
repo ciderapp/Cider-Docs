@@ -35,11 +35,6 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% endcontent-ref %}
 {% endtab %}
 
-{% tab title="Support" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-{% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
