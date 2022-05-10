@@ -12,6 +12,7 @@
 
 * [Creating a theme](themes/theme-stylesheets.md)
 * [Theme definitions (theme.json)](themes/theme-definitions-theme.json.md)
+* [Available Attributes](themes/available-attributes.md)
 * [Using Resources in Themes](themes/using-resources-in-themes.md)
 * [Publishing to GitHub](themes/publishing-to-github.md)
 
