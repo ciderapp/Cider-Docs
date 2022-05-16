@@ -57,10 +57,18 @@ If you'd like to update your repository in the future to keep up to date use the
 ### Installing Dependencies
 
 Now for the fun part, by using yarn or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
-
-```
-yarn install
-```
+{% tabs %}
+  {% tab title="yarn" %}
+  ```
+  yarn install
+  ```
+  {% endtab %}
+  {% tab title="npm" %}
+  ```
+  npm install --force
+  ```
+  {% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 This step could take a little while on some machines.
@@ -71,14 +79,26 @@ This step could take a little while on some machines.
 This step takes a little while on the first compilation so bare with it as it does what it needs to do.&#x20;
 
 Compiling Cider for specific CPU architectures is a smart thing to do and you can do it by adding **switches** to the dist argument as displayed.
+{% tabs %}
+  {% tab title="yarn" %}
+  ```
+  // For x86_64 machines. (Modern PC's)
+  yarn dist -w --x64
 
-```
-// For x86_64 machines. (Modern PC's)
-yarn dist -w --x64
+  // For x86 ONLY machines. (Legacy PC's)
+  yarn dist -w --ia32
+  ```
+  {% endtab %}
+  {% tab title="npm" %}
+  ```
+  // For x86_64 machines. (Modern PC's)
+  npm run dist -w --x64
 
-// For x86 ONLY machines. (Legacy PC's)
-yarn dist -w --ia32
-```
+  // For x86 ONLY machines. (Legacy PC's)
+  npm run dist -w --ia32
+  ```
+  {% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 On some low-end machines this process could take up to \~5 minutes.
