@@ -1,4 +1,4 @@
-# Creating a theme
+# Creating a Theme
 
 If one does not already exist, create a new theme directory in the user data folder.
 
@@ -16,3 +16,8 @@ Create a new folder in the themes directory with the name of your theme.
 In Cider, select the theme in the settings.
 
 Cider has automatic hot reloading for themes in the userdata folder.
+
+### Useful Resources
+
+* The default styles.less can be found in: [src/renderer/style.less](https://github.com/ciderapp/Cider/tree/main/src/renderer/style.less)
+* [Less.js documentation](https://lesscss.org/)

@@ -10,8 +10,8 @@
 
 ## 🎨 Themes
 
-* [Creating a theme](themes/theme-stylesheets.md)
-* [Theme definitions (theme.json)](themes/theme-definitions-theme.json.md)
+* [Creating a Theme](themes/theme-stylesheets.md)
+* [Theme Definitions (theme.json)](themes/theme-definitions-theme.json.md)
 * [Available Attributes](themes/available-attributes.md)
 * [Using Resources in Themes](themes/using-resources-in-themes.md)
 * [Publishing to GitHub](themes/publishing-to-github.md)
@@ -37,5 +37,6 @@
 
 ## ✋ Support
 
+* [Disclaimer](support/disclaimer.md)
 * [Troubleshooting](support/troubleshooting.md)
 * [FAQ](support/faqs.md)
