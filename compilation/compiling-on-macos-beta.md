@@ -11,12 +11,13 @@ description: >-
 
 Recommended / Required Development Utilities
 
-* NodeJS (<16.x.x)
-* yarn (Optional, but highly recommended)
-* Git SCM ([https://git-scm.com/](https://git-scm.com))
-* Python 3.8< ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-* Xcode 11+ ([https://developer.apple.com/xcode/](https://developer.apple.com/xcode/))
-* An Apple Developer account (one that cost money) (so that Cider would actually **plays song**)
+* [NodeJS 16.0.0 or greater](https://nodejs.org/)
+* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
+* [Git](https://git-scm.com)
+* [Python 3.8 or greater](https://www.python.org/downloads/)
+* [Rust](https://www.rust-lang.org/tools/install)
+* [Xcode 11+](https://developer.apple.com/xcode/)
+* An Apple Developer account (one that cost money) (so that Cider would actually **play songs**)
 * Basic Command Line Knowledge
 
 {% hint style="warning" %}
@@ -38,7 +39,7 @@ Open a command prompt window in the directory you'd like Git to clone to and ent
 git clone https://github.com/ciderapp/Cider.git
 ```
 
-**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
+**Optionally**, if you'd like to use the **Main** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
 
 ```
 cd Cider/

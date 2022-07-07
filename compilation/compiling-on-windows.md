@@ -16,6 +16,7 @@ Recommended / Required Development Utilities
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
 * [windows-build-tools](https://github.com/nodejs/node-gyp#on-windows)
+* [Rust](https://www.rust-lang.org/tools/install)
 
 {% hint style="warning" %}
 Yarn while not required it's **recommended** for compiling Cider and you can install it by using:
@@ -41,7 +42,7 @@ Open a command prompt window in the directory you'd like Git to clone to and ent
 git clone https://github.com/ciderapp/Cider.git
 ```
 
-**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
+**Optionally**, if you'd like to use the **Main** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
 
 ```
 cd Cider/
