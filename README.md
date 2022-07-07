@@ -21,7 +21,7 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% content-ref url="compilation/compiling-on-linux.md" %}
 [Compiling on Linux](compilation/compiling-on-linux.md)
 {% endcontent-ref %}
-{% content-ref url="compilation/compiling-on-windows.md" %}
+{% content-ref url="compilation/compiling-on-macos-beta.md" %}
 [Compiling on macOS (Beta)](compilation/compiling-on-macos-beta.md)
 {% endcontent-ref %}
 {% endtab %}
