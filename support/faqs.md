@@ -1,27 +1,18 @@
----
-description: The main Frequently Asked Questions for Cider application support.
----
-
 # FAQ
 
-{% hint style="info" %}
-This is essential knowledge for the debugging process, please read these before creating an issue.
-{% endhint %}
-
-<details>
-
-<summary>How to find the Application Data Directory</summary>
+### How to Find the Application Data Directory
 
 The location of your application data varies depending on your operating system.
 
-* For users on Windows using the GitHub release, the path is `%APPDATA%/Cider/`
-* For users of the Microsoft Store release of Cider, the path is `/Program Files/WindowsApps/**Cider**`
+* For Windows-based operating systems, the path is `%APPDATA%/Cider/`
 * For Linux users, the AppData can be found in `~/.config/Cider/`.
 * For macOS the path is `Library/Application Support/Cider/`.
 
-</details>
+### MPRIS Integration Information
 
-## Why is my DiscordRPC status not appearing?
+For those who are using Linux and intend on using a script to display song information, you can utilise the cider MPRIS integration with the `org.mpris.MediaPlayer2.cider` or cider identifier. If you wish to find out more about MPRIS, visit the [arch wiki page](https://wiki.archlinux.org/title/MPRIS).
+
+### Why is my Discord RPC status not appearing?
 
 Try the following if Discord Rich Presence is not appearing on Discord.&#x20;
 
@@ -59,7 +50,11 @@ Ensure that you are running Discord on a level that is below Cider. If Discord i
 
 </details>
 
-## Cannot Cast on my Network (Windows)
+### Cider on Wayland
+
+If you experience issues when running Cider on the Linux Wayland Desktop Server, pass the following arguments when launching the app: `--enable-features=UseOzonePlatform --ozone-platform=wayland`
+
+### Cannot Cast on my Network (Windows)
 
 For issues when attempting to cast your music, do the following:
 
