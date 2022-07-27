@@ -20,4 +20,4 @@ In Nightly/Beta releases the same applies as with normal releases: Support is fu
 
 #### Support (Third Party)
 
-No support is provided outside the releases made on GitHub and posted in the [releases section](https://github.com/ciderapp/Cider#install-sources).
+No support is provided outside the releases made on GitHub and posted in the [releases section](https://github.com/ciderapp/Cider/releases/tag/releasepage).
