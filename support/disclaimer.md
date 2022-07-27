@@ -20,4 +20,4 @@ In Nightly/Beta releases the same applies as with normal releases: Support is fu
 
 #### Support (Third Party)
 
-No support is provided outside the releases made on GitHub and posted in the [releases section](https://github.com/ciderapp/Cider/releases/tag/releasepage).
+No support is provided outside the releases made on [GitHub](https://github.com/ciderapp/cider-releases/releases/latest) and on the [Microsoft Store](https://www.microsoft.com/en-gb/p/cider-alpha/9p21xj9d9g66). Issues for external packages (AUR, Flatpak, Snap, etc.) should be opened with the relative repository/platform, or by contacting the author.
