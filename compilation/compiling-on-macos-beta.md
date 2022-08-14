@@ -4,19 +4,18 @@ description: >-
   your own version of Cider.
 ---
 
-# Compiling on macOS (Beta)
-
+# Compiling on macOS
 
 ## Getting Started
 
 Recommended / Required Development Utilities
 
-* NodeJS (<16.x.x)
-* yarn (Optional, but highly recommended)
-* Git SCM ([https://git-scm.com/](https://git-scm.com))
-* Python 3.8< ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-* Xcode 11+ ([https://developer.apple.com/xcode/](https://developer.apple.com/xcode/))
-* An Apple Developer account (one that cost money) (so that Cider would actually **plays song**)
+* [NodeJS 14.0.0 or greater](https://nodejs.org/)
+* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
+* [Git](https://git-scm.com)
+* [Python 3.8 or greater](https://www.python.org/downloads/)
+* [Xcode 11+](https://developer.apple.com/xcode/\))
+* Have an Apple Developer Account and be a member of the [Apple Developer Program](https://developer.apple.com/support/compare-memberships/). This is necessary to play music through the app.
 * Basic Command Line Knowledge
 
 {% hint style="warning" %}
@@ -26,8 +25,7 @@ Yarn while not required it's **recommended** for compiling Cider and you can ins
 {% endhint %}
 
 {% hint style="danger" %}
-To remind you again, if you **don't** have an Apple Developer account to sign the Cider binary after building, it **WILL NOT** work. 
-
+To remind you again, if you **don't** have an Apple Developer account to sign the Cider binary after building, it **WILL NOT** work.
 {% endhint %}
 
 ### Cloning the repository
@@ -38,7 +36,7 @@ Open a command prompt window in the directory you'd like Git to clone to and ent
 git clone https://github.com/ciderapp/Cider.git
 ```
 
-**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
+**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands
 
 ```
 cd Cider/
@@ -46,7 +44,7 @@ git checkout develop
 ```
 
 {% hint style="success" %}
-If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_&#x20;
+If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_
 
 `git pull`
 {% endhint %}
@@ -65,8 +63,7 @@ This step could take a little while on some machines.
 
 ### Create an account to VMP-sign Cider.
 
-What is this for? MacOS doesn't like development Widevine DRM keys for some reason. Therefore, we need to sign our own production keys here.
-This can be done as follows:
+What is this for? MacOS doesn't like development Widevine DRM keys for some reason. Therefore, we need to sign our own production keys here. This can be done as follows:
 
 ```
 python3 -m pip install --upgrade castlabs-evs
@@ -101,15 +98,11 @@ Refreshing authorization token(s)
 
 ### Create Apple signing keys and app-specific password.
 
-1. In Xcode: Under ```Xcode > Preferences (⌘,) > Accounts```, you may add your Apple ID. With your team selected, the View Details... in the bottom right could find you the available certificates for generation/download. 
-
+1. In Xcode: Under `Xcode > Preferences (⌘,) > Accounts`, you may add your Apple ID. With your team selected, the View Details... in the bottom right could find you the available certificates for generation/download.
 2. After that, select all of the certificates in Keychain Access to generate as a .p12 file. Remember the file location and the .p12 password.
-
-3. [Generate](https://support.apple.com/en-us/HT204397) the app-specific password of your Apple Developer account 
-
+3. [Generate](https://support.apple.com/en-us/HT204397) the app-specific password of your Apple Developer account
 
 ### Setting up environment variables.
-
 
 ```
 export CSC_LINK= <location to the p12 certificate>
@@ -118,7 +111,7 @@ export APPLEID= <your Apple Developer email address>
 export APPLEIDPASS= <your Apple Developer app-specific password>
 ```
 
-You can set the environment variables permanently by edit the ```~/.bash-profile``` file and add the above lines at the bottom of the file.
+You can set the environment variables permanently by edit the `~/.bash-profile` file and add the above lines at the bottom of the file.
 
 ```
 ~/.bash-profile
@@ -135,9 +128,9 @@ cp resources/macPackager.js node_modules/app-builder-lib/out/macPackager.js
 
 ### Compiling Cider
 
-This step takes a little while on the first compilation so bare with it as it does what it needs to do.&#x20;
+This step takes a little while on the first compilation so bare with it as it does what it needs to do.
 
-This will generate a universal signed and notarized binary. ( Don't mind the "not working" command line, it works)  
+This will generate a universal signed and notarized binary. ( Don't mind the "not working" command line, it works)
 
 ```
 yarn dist:universalNotWorking -p never

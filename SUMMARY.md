@@ -6,7 +6,7 @@
 
 * [Compiling on Windows](compilation/compiling-on-windows.md)
 * [Compiling on Linux](compilation/compiling-on-linux.md)
-* [Compiling on macOS (Beta)](compilation/compiling-on-macos-beta.md)
+* [Compiling on macOS](compilation/compiling-on-macos-beta.md)
 
 ## 🎨 Themes
 
