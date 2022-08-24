@@ -2,7 +2,7 @@
 description: The main Frequently Asked Questions for Cider application support.
 ---
 
-# FAQ
+# Troubleshooting FAQ
 
 {% hint style="info" %}
 This is essential knowledge for the debugging process, please read these before creating an issue.
@@ -84,3 +84,9 @@ For issues when attempting to cast your music, do the following:
 4. Click Change Advanced Sharing Settings on the left-hand side
 5. Expand the Guest or Public list and turn on both options.
 6. Restart your PC
+
+## Cider is Skipping or Not Playing Explicit Songs
+
+If you are experiencing this issue, your account might have content restrictions set to "Clean". To check go to your [Apple Media Account Settings](https://tv.apple.com/settings) and check the "Content Restrictions" section.
+
+Make sure that Music is set to **Explicit**.

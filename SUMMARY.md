@@ -39,5 +39,5 @@
 
 * [Disclaimer](support/disclaimer.md)
 * [Troubleshooting](support/troubleshooting.md)
-* [FAQ](support/faqs.md)
+* [Troubleshooting FAQ](support/faqs.md)
 * [Technical FAQs](support/technical-faqs.md)
