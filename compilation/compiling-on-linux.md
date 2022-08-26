@@ -85,30 +85,30 @@ Compiling Cider for specific CPU architectures is a smart thing to do and you ca
 {% tab title="pnpm" %}
 ```
 // For x86_64 machines. (Modern PC's)
-pnpm dist -w --x64
+pnpm dist -l --x64
 
 // For x86 ONLY machines. (Legacy PC's)
-pnpm dist -w --ia32
+pnpm dist -l --ia32
 ```
 {% endtab %}
 
 {% tab title="npm" %}
 ```
 // For x86_64 machines. (Modern PC's)
-npm run dist -w --x64
+npm run dist -l --x64
 
 // For x86 ONLY machines. (Legacy PC's)
-npm run dist -w --ia32
+npm run dist -l --ia32
 ```
 {% endtab %}
 
 {% tab title="yarn" %}
 ```
 // For x86_64 machines. (Modern PC's)
-yarn dist -w --x64
+yarn dist -l --x64
 
 // For x86 ONLY machines. (Legacy PC's)
-yarn dist -w --ia32
+yarn dist -l --ia32
 ```
 {% endtab %}
 {% endtabs %}
