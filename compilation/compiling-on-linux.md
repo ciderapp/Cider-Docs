@@ -88,7 +88,7 @@ If you are on an arch-based Linux distribution and have an AUR helper (pacman/ya
 Assuming you already have access to the AUR and have a friendly AUR helper (we will use `yay` for this example) enter the following command to automatically obtain all required dependencies for installation.
 
 {% hint style="info" %}
-If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [develop](https://github.com/ciderapp/Cider/tree/develop) branch.
+If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [main](https://github.com/ciderapp/Cider/tree/main) branch.
 {% endhint %}
 
 ```
