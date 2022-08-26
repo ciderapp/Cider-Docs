@@ -23,8 +23,8 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 [compiling-on-linux.md](compilation/compiling-on-linux.md)
 {% endcontent-ref %}
 
-{% content-ref url="compilation/compiling-on-windows.md" %}
-[compiling-on-windows.md](compilation/compiling-on-windows.md)
+{% content-ref url="compilation/compiling-on-macos-beta.md" %}
+[compiling-on-macos-beta.md](compilation/compiling-on-macos-beta.md)
 {% endcontent-ref %}
 {% endtab %}
 
