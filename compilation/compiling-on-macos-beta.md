@@ -51,11 +51,27 @@ If you'd like to update your repository in the future to keep up to date use the
 
 ### Installing Dependencies
 
-Now for the fun part, by using pnpm or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using pnpm, npm or yarn (we'll be using pnpm in this case) enter the following command to automatically obtain all required dependencies for installation.
 
+{% tabs %}
+{% tab title="pnpm" %}
 ```
 pnpm install
 ```
+{% endtab %}
+
+{% tab title="npm" %}
+```
+npm install --force
+```
+{% endtab %}
+
+{% tab title="yarn" %}
+```
+yarn install
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 This step could take a little while on some machines.
