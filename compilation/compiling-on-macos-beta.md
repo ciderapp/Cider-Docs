@@ -11,7 +11,7 @@ description: >-
 Recommended / Required Development Utilities
 
 * [NodeJS 14.0.0 or greater](https://nodejs.org/)
-* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
+* [pnpm](https://pnpm.io/) (_Optional, but highly recommended_)
 * [Git](https://git-scm.com)
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * [Xcode 11+](https://developer.apple.com/xcode/\))
@@ -19,9 +19,9 @@ Recommended / Required Development Utilities
 * Basic Command Line Knowledge
 
 {% hint style="warning" %}
-Yarn while not required it's **recommended** for compiling Cider and you can install it by using:
+While not required, PNPM is **recommended** for compiling Cider, and you can install it by using:
 
-`npm install -g yarn`
+`npm install -g pnpm`
 {% endhint %}
 
 {% hint style="danger" %}
@@ -51,10 +51,10 @@ If you'd like to update your repository in the future to keep up to date use the
 
 ### Installing Dependencies
 
-Now for the fun part, by using yarn or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using pnpm or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
 
 ```
-yarn install
+pnpm install
 ```
 
 {% hint style="info" %}
@@ -133,7 +133,7 @@ This step takes a little while on the first compilation so bare with it as it do
 This will generate a universal signed and notarized binary. ( Don't mind the "not working" command line, it works)
 
 ```
-yarn dist:universalNotWorking -p never
+pnpm dist:universalNotWorking -p never
 ```
 
 {% hint style="warning" %}

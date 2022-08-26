@@ -11,16 +11,17 @@ description: >-
 Recommended / Required Development Utilities
 
 * [NodeJS 14.0.0 or greater](https://nodejs.org/)
-* [yarn](https://yarnpkg.com/) (_Optional, but highly recommended_)
+* [pnpm](https://pnpm.io/) (_Optional, but highly recommended_)
 * [Git](https://git-scm.com)
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
 
 {% hint style="warning" %}
-Yarn while not required it's **recommended** for compiling Cider and you can install it by using:
+While not required, PNPM is **recommended** for compiling Cider, and you can install it by using:
 
-`npm install -g yarn`
+`npm install -g pnpm`
 {% endhint %}
+
 ### Cloning the repository
 
 Open a terminal window in the directory you'd like Git to clone to and enter the following command
@@ -29,7 +30,7 @@ Open a terminal window in the directory you'd like Git to clone to and enter the
 git clone https://github.com/ciderapp/Cider.git
 ```
 
-**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands&#x20;
+**Optionally**, if you'd like to use the **Development** branch of Cider to test upcoming features switch your branch by moving your terminal into the directory and using git to checkout the branch by entering the following commands
 
 ```
 cd Cider\
@@ -37,17 +38,17 @@ git checkout develop
 ```
 
 {% hint style="success" %}
-If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_&#x20;
+If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_
 
 `git pull`
 {% endhint %}
 
 ### Installing Dependencies
 
-Now for the fun part, by using yarn or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using pnpm or npm (we'll be using yarn in this case) enter the following command to automatically obtain all required dependencies for installation.
 
 ```
-yarn install
+pnpm install
 ```
 
 {% hint style="info" %}
@@ -60,16 +61,16 @@ Using npm in this stage may error out. to fix this, just simple use `--force` to
 
 ### Compiling Cider
 
-This step takes a little while on the first compilation so bare with it as it does what it needs to do.&#x20;
+This step takes a little while on the first compilation so bare with it as it does what it needs to do.
 
 Compiling Cider for specific CPU architectures is a smart thing to do and you can do it by adding **switches** to the dist argument as displayed.
 
 ```
 // For x86_64 machines. (Modern PC's)
-yarn dist -l --x64
+pnpm dist -l --x64
 
 // For x86 ONLY machines. (Legacy PC's)
-yarn dist -l --ia32
+pnpm dist -l --ia32
 ```
 
 {% hint style="warning" %}
@@ -95,7 +96,7 @@ yay -S cider
 ```
 
 {% hint style="warning" %}
-Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to ```nodejs-lts-gallium``` to resolve this issue.
+Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to `nodejs-lts-gallium` to resolve this issue.
 {% endhint %}
 
 ### Installing Cider
