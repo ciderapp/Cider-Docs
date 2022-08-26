@@ -79,15 +79,39 @@ Using npm in this stage may error out. to fix this, just simple use `--force` to
 
 This step takes a little while on the first compilation so bare with it as it does what it needs to do.
 
-Compiling Cider for specific CPU architectures is a smart thing to do and you can do it by adding **switches** to the dist argument as displayed.
+Compiling Cider for specific CPU architectures is a smart thing to do and you can do it by adding **switches** to the `dist` argument as displayed.
 
+{% tabs %}
+{% tab title="pnpm" %}
 ```
 // For x86_64 machines. (Modern PC's)
-pnpm dist -l --x64
+pnpm dist -w --x64
 
 // For x86 ONLY machines. (Legacy PC's)
-pnpm dist -l --ia32
+pnpm dist -w --ia32
 ```
+{% endtab %}
+
+{% tab title="npm" %}
+```
+// For x86_64 machines. (Modern PC's)
+npm run dist -w --x64
+
+// For x86 ONLY machines. (Legacy PC's)
+npm run dist -w --ia32
+```
+{% endtab %}
+
+{% tab title="yarn" %}
+```
+// For x86_64 machines. (Modern PC's)
+yarn dist -w --x64
+
+// For x86 ONLY machines. (Legacy PC's)
+yarn dist -w --ia32
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 On some low-end machines this process could take up to \~10 minutes.
