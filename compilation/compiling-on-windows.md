@@ -49,14 +49,14 @@ git checkout develop
 ```
 
 {% hint style="success" %}
-If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_
+If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
 {% endhint %}
 
 ### Installing Dependencies
 
-Now for the fun part, by using pnpm, npm or yarn (we'll be using pnpm in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using `pnpm`, `npm` or `yarn` (we'll be using `pnpm` in this case) enter the following command to automatically obtain all required dependencies for installation.
 
 {% tabs %}
 {% tab title="pnpm" %}

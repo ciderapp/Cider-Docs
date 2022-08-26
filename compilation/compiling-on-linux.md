@@ -38,14 +38,14 @@ git checkout develop
 ```
 
 {% hint style="success" %}
-If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_
+If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
 {% endhint %}
 
 ### Installing Dependencies
 
-Now for the fun part, by using pnpm, npm or yarn (we'll be using pnpm in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using `pnpm`, `npm` or `yarn` (we'll be using `pnpm` in this case) enter the following command to automatically obtain all required dependencies for installation.
 
 {% tabs %}
 {% tab title="pnpm" %}
@@ -71,13 +71,9 @@ yarn install
 This step could take a little while on some machines.
 {% endhint %}
 
-{% hint style="info" %}
-Using npm in this stage may error out. to fix this, just simple use `--force` to supress the warnings.
-{% endhint %}
-
 ### Compiling Cider
 
-This step takes a little while on the first compilation so bare with it as it does what it needs to do.
+This step takes a little while on the first compilation so bear with it as it does what it needs to do.
 
 Compiling Cider for specific CPU architectures is a smart thing to do and you can do it by adding **switches** to the `dist` argument as displayed.
 
@@ -118,12 +114,12 @@ On some low-end machines this process could take up to \~10 minutes.
 {% endhint %}
 
 {% hint style="warning" %}
-This command would build 3 seperate packages of Cider, AppImage, .deb, and .snap packages
+This command would build three separate packages of Cider, AppImage, .deb, and .snap packages
 {% endhint %}
 
 ### Compiling Cider from AUR
 
-If you are on an arch-based Linux distribution and have an AUR helper (pacman/yay/paru/etc.), then you are in luck. Cider has 2 PKGBUILD's in the Arch User Repository.
+If you are on an arch-based Linux distribution and have an AUR helper (`pacman/yay/paru/etc.`), then you are in luck. Cider has 2 PKGBUILD's in the Arch User Repository.
 
 Assuming you already have access to the AUR and have a friendly AUR helper (we will use `yay` for this example) enter the following command to automatically obtain all required dependencies for installation.
 

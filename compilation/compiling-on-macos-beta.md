@@ -44,14 +44,14 @@ git checkout develop
 ```
 
 {% hint style="success" %}
-If you'd like to update your repository in the future to keep up to date use the command _(Make sure your in the directory you originally cloned in)_
+If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
 {% endhint %}
 
 ### Installing Dependencies
 
-Now for the fun part, by using pnpm, npm or yarn (we'll be using pnpm in this case) enter the following command to automatically obtain all required dependencies for installation.
+Now for the fun part, by using `pnpm`, `npm` or `yarn` (we'll be using `pnpm` in this case) enter the following command to automatically obtain all required dependencies for installation.
 
 {% tabs %}
 {% tab title="pnpm" %}
@@ -102,7 +102,7 @@ Refreshing authorization token(s)
 
 Remember your account name and password because you will need it later.
 
-Once in a while , you may need to re-authenticate the VMP account. If that is the case:
+Once in a while, you may need to re-authenticate the VMP account. If that is the case:
 
 ```
 python3 -m castlabs_evs.account reauth
@@ -144,13 +144,29 @@ cp resources/macPackager.js node_modules/app-builder-lib/out/macPackager.js
 
 ### Compiling Cider
 
-This step takes a little while on the first compilation so bare with it as it does what it needs to do.
+This step takes a little while on the first compilation so bear with it as it does what it needs to do.
 
-This will generate a universal signed and notarized binary. ( Don't mind the "not working" command line, it works)
+This will generate a universal signed and notarized binary. (Don't mind the "not working" command line, it works)
 
+{% tabs %}
+{% tab title="pnpm" %}
 ```
 pnpm dist:universalNotWorking -p never
 ```
+{% endtab %}
+
+{% tab title="npm" %}
+```
+npm run dist:universalNotWorking -p never
+```
+{% endtab %}
+
+{% tab title="yarn" %}
+```
+yarn dist:universalNotWorking -p never
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 On some low-end machines this process could take up to \~20-30 minutes. (It will look like it hangs at the notarization part, don't exit it).
