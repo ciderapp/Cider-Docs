@@ -12,7 +12,7 @@ Support is fully provided to all releases made on GitHub. Please open an [issue]
 
 #### Support (Compiling)
 
-If you experience issues in the compiling process, support is only provided to an extent. If it is not evident that you have CLI knowledge we will not provide support and will advise you to use the release build. If you experience issues with your compiled build, please open an [issue](https://github.com/ciderapp/cider/issues/new/choose). However, if you have modified the code and your modifications are causing issues, we cannot provide support for this.
+If you experience issues in the compiling process, support is not provided. All commits made will generate a release, these can be found [here](https://github.com/ciderapp/cider-releases/releases). We advise you to revisit the [compiling guide](https://docs.cider.sh/) if you experience issues.
 
 #### Support (Nightly/Beta Releases)
 
@@ -20,4 +20,4 @@ In Nightly/Beta releases the same applies as with normal releases: Support is fu
 
 #### Support (Third Party)
 
-No support is provided outside the releases made on [GitHub](https://github.com/ciderapp/cider-releases/releases/latest) and on the [Microsoft Store](https://www.microsoft.com/en-gb/p/cider-alpha/9p21xj9d9g66). Issues for external packages (AUR, Flatpak, Snap, etc.) should be opened with the relative repository/platform, or by contacting the author.
+No support is provided outside the releases made on [GitHub](https://github.com/ciderapp/cider-releases/releases) and on the [Microsoft Store](https://www.microsoft.com/en-gb/p/cider-alpha/9p21xj9d9g66). Issues for external packages (AUR, Flatpak, Snap, etc.) should be opened with the relative repository/platform, or by contacting the author.
