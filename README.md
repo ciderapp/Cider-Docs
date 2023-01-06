@@ -15,12 +15,12 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 
 {% tabs %}
 {% tab title="Building" %}
-{% content-ref url="compilation/compiling-on-windows.md" %}
-[compiling-on-windows.md](compilation/compiling-on-windows.md)
-{% endcontent-ref %}
-
 {% content-ref url="compilation/compiling-on-linux.md" %}
 [compiling-on-linux.md](compilation/compiling-on-linux.md)
+{% endcontent-ref %}
+
+{% content-ref url="compilation/compiling-on-windows.md" %}
+[compiling-on-windows.md](compilation/compiling-on-windows.md)
 {% endcontent-ref %}
 
 {% content-ref url="compilation/compiling-on-macos-beta.md" %}
@@ -53,6 +53,14 @@ Pick a category and sub-category you'd like to learn more about or use the sideb
 {% endtab %}
 
 {% tab title="Support" %}
+{% content-ref url="support/disclaimer.md" %}
+[disclaimer.md](support/disclaimer.md)
+{% endcontent-ref %}
+
+{% content-ref url="support/version-information.md" %}
+[version-information.md](support/version-information.md)
+{% endcontent-ref %}
+
 {% content-ref url="support/troubleshooting.md" %}
 [troubleshooting.md](support/troubleshooting.md)
 {% endcontent-ref %}
