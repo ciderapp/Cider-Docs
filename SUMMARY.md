@@ -37,6 +37,7 @@
 
 ## ✋ Support
 
+* [Version Information](support/version-information.md)
 * [Disclaimer](support/disclaimer.md)
 * [Troubleshooting](support/troubleshooting.md)
 * [Troubleshooting FAQ](support/faqs.md)
