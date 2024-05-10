@@ -1,8 +1,8 @@
 ---
-title: "Discord RPC Documentation"
+title: "Client RPC Documentation"
 description: "This website contains all the resources required to compile, create plugins and theme Cider!"
 navigation:
-  title: "Discord RPC"
+  title: "Client RPC"
   icon: ""
 draft: "false"
 ---
