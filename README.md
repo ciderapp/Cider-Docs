@@ -1,7 +1,3 @@
----
-navigation: false
----
-
 # Cider Documentation Repository  
 
 Welcome to the **Cider Documentation Repository**! This repository serves as the central hub for all documentation related to the **Cider Client**, providing comprehensive guides, best practices, and reference materials for end-users and developers alike.  
