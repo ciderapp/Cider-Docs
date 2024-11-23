@@ -2,70 +2,31 @@
 navigation: false
 ---
 
-# 👋 Welcome to the Cider Docs!
+# Cider Documentation Repository  
 
-### Let's get started!
+Welcome to the **Cider Documentation Repository**! This repository serves as the central hub for all documentation related to the **Cider Client**, providing comprehensive guides, best practices, and reference materials for end-users and developers alike.  
 
-Pick a category and sub-category you'd like to learn more about or use the sidebar/hamburger menu on your left!
+---
 
-{% tabs %}
-{% tab title="Building" %}
-{% content-ref url="compilation/compiling-on-linux.md" %}
-[compiling-on-linux.md](compilation/compiling-on-linux.md)
-{% endcontent-ref %}
+## 📖 Table of Contents  
+- [About the Cider Client](#about-the-cider-client)  
+- [Documentation Structure](#documentation-structure)  
+- [How to Contribute](#how-to-contribute)  
+- [Contact and Support](#contact-and-support)  
 
-{% content-ref url="compilation/compiling-on-windows.md" %}
-[compiling-on-windows.md](compilation/compiling-on-windows.md)
-{% endcontent-ref %}
+---
 
-{% content-ref url="compilation/compiling-on-macos-beta.md" %}
-[compiling-on-macos-beta.md](compilation/compiling-on-macos-beta.md)
-{% endcontent-ref %}
-{% endtab %}
+## 🗂️ Documentation Structure  
 
-{% tab title="Development" %}
-{% content-ref url="plugins/creating-a-basic-plugin.md" %}
-[creating-a-basic-plugin.md](plugins/creating-a-basic-plugin.md)
-{% endcontent-ref %}
+The documentation is organized into a Markdown-based structure for ease of editing and publishing.  
 
-{% content-ref url="plugins/renderer.md" %}
-[renderer.md](plugins/renderer.md)
-{% endcontent-ref %}
-
-{% content-ref url="plugins/frontend-api.md" %}
-[frontend-api.md](plugins/frontend-api.md)
-{% endcontent-ref %}
-{% endtab %}
-
-{% tab title="Languages" %}
-{% content-ref url="locales/editing-adding-locales.md" %}
-[editing-adding-locales.md](locales/editing-adding-locales.md)
-{% endcontent-ref %}
-
-{% content-ref url="locales/creating-a-pull-request.md" %}
-[creating-a-pull-request.md](locales/creating-a-pull-request.md)
-{% endcontent-ref %}
-{% endtab %}
-
-{% tab title="Support" %}
-{% content-ref url="support/disclaimer.md" %}
-[disclaimer.md](support/disclaimer.md)
-{% endcontent-ref %}
-
-{% content-ref url="support/version-information.md" %}
-[version-information.md](support/version-information.md)
-{% endcontent-ref %}
-
-{% content-ref url="support/troubleshooting.md" %}
-[troubleshooting.md](support/troubleshooting.md)
-{% endcontent-ref %}
-
-{% content-ref url="support/faqs.md" %}
-[faqs.md](support/faqs.md)
-{% endcontent-ref %}
-{% endtab %}
-{% endtabs %}
-
-{% hint style="warning" %}
-This documentation site is currently in development and some articles/doc pages may be missing or incomplete.
-{% endhint %}
+```plaintext
+docs/  
+├── introduction.md       # Overview of the Cider Client  
+├── features/             # Documentation on individual features  
+│   ├── feature-a.md  
+│   └── feature-b.md  
+├── troubleshooting.md    # Solutions to common issues  
+├── faq.md                # Frequently Asked Questions  
+└── changelog.md          # Release notes and updates
+```
