@@ -15,6 +15,9 @@ Note: This will remove your current login state and unsynced data (Settings, Fol
 The **alert** component.
 ::
 
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
 <details>
 <summary>Windows</summary>
 
