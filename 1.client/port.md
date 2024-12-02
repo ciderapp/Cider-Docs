@@ -4,7 +4,7 @@ description: "Guide on how to change the port the client frontend listens on."
 navigation:
   title: "Override Client Port"
   icon: ""
-draft: "false"
+draft: true
 ---
 
 # Changing the Client Frontend Port

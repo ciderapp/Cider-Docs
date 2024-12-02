@@ -2,43 +2,24 @@
 description: The main Frequently Asked Questions for Cider application support.
 ---
 
-# Troubleshooting FAQ
+# Troubleshooting FAQs
 
-::alert{type="info"}
+::alert{type="note"}
 This is essential knowledge for the debugging process, please read these before creating an issue.
 ::
 
 ## How to find the Application Data Directory
 
 The location of your application data varies depending on your operating system, see your platforms path below:
+- MS Store: `%localappdata%\packages\27554FireDevElijahKlauman.CiderEA_270bejk4xgzqp\LocalCache\Roaming\C2Windows`
+- Windows (non-MS Store): `%appdata%\C2Windows`
+- Linux: `$HOME/.config/sh.cider.genten`
+- MacOS: `/Library/Application Support/sh.cider.genten`
 
-{% tabs %}
-{% tab title="Windows" %}
-## Winget / GitHub Release (.exe)
-
-Application data can be found at `%appdata%\Cider`&#x20;
-
-`(C:\Users\<username>\AppData\Roaming\Cider)`
-
-## Windows Store (appx)
-
-Application data can be found at `C:\Program Files\Windows Apps\**Cider**`
-
-The asterisks imply wildcard as the package name varies with an ID and the author.
-{% endtab %}
-
-{% tab title="Linux" %}
-Application data can be found at `$HOME/.config/Cider`
-{% endtab %}
-
-{% tab title="macOS" %}
-Application data can be found at `$HOME/Library/Application Support/Cider`
-{% endtab %}
-{% endtabs %}
 
 ## Why is my DiscordRPC status not appearing?
 
-Try the following if Discord Rich Presence is not appearing on Discord.&#x20;
+Try the following if Discord Rich Presence is not appearing on Discord.
 
 <details>
 
@@ -74,19 +55,21 @@ Ensure that you are running Discord on a level that is below Cider. If Discord i
 
 </details>
 
-## Cannot Cast on my Network (Windows)
-
-For issues when attempting to cast your music, do the following:
-
-1. Open Control Panel
-2. Click Network and Internet
-3. Click Network and Sharing centre
-4. Click Change Advanced Sharing Settings on the left-hand side
-5. Expand the Guest or Public list and turn on both options.
-6. Restart your PC
-
 ## Cider is Skipping or Not Playing Explicit Songs
 
-If you are experiencing this issue, your account might have content restrictions set to "Clean". To check go to your [Apple Media Account Settings](https://tv.apple.com/settings) and check the "Content Restrictions" section.
+If you are experiencing this issue, your account might have content restrictions set to "Clean". Login to [Apple Music Web](https://beta.music.apple.com), go to Profile Picture > Settings, then login again and check the "Content Restrictions" under "Parent Controls". 
 
 Make sure that Music is set to **Explicit**.
+
+::alert{type="note"}
+It could potentially be a case where explicit playback is restricted in your country, in this case you may need to change your Apple Account region to resolve this.
+::
+
+## Why do I keep getting 'localtunnel.me connection refused' on macOS?
+
+This is a fairly rare case and can be resolved fairly easily. Follow the steps below and it should resolve your issue:
+1. Disable any Antivirus and/or Firewall present on your device. These can conflict with the WebSocket API in the client and will cause this error. (ESET is a known offender for this.)
+2. Ensure you do not have a VPN on or any policies enabled on your device that can affect network traffic. Company managed devices may also have policies blocking this.
+3. Check that you do not have Cider running already - and that nothing is running on the same port that Cider operates under - `10767`.
+
+Outside of this advice, there is an [open issue on localtunnel](https://github.com/localtunnel/localtunnel/issues/658) for it, unfortunately we are stuck with it as one of the key components in Cider uses it as a dependency. We cannot help further on this issue.
