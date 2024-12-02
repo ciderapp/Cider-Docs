@@ -11,6 +11,10 @@ Troubleshooting can be done in a series of ways. Below is a list of the current 
 Note: This will remove your current login state and unsynced data (Settings, Followed Artists).
 {% endhint %}
 
+::alert{type="warning"}
+The **alert** component.
+::
+
 <details>
 <summary>Windows</summary>
 
