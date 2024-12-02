@@ -7,16 +7,9 @@ Troubleshooting can be done in a series of ways. Below is a list of the current 
 ## 1: **Clean Installation**
 * A clean installation can be done by doing the following guide associated with your operating system:
 
-{% hint style="warning" %}
-Note: This will remove your current login state and unsynced data (Settings, Followed Artists).
-{% endhint %}
-
 ::alert{type="warning"}
-The **alert** component.
+Note: This will remove your current login state and unsynced data (Settings, Followed Artists).
 ::
-
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
 
 <details>
 <summary>Windows</summary>

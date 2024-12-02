@@ -16,11 +16,11 @@ Recommended / Required Development Utilities
 * [Python 3.8 or greater](https://www.python.org/downloads/)
 * Basic Command Line Knowledge
 
-{% hint style="warning" %}
+::alert{type="warning"}
 While not required, PNPM is **recommended** for compiling Cider, and you can install it by using:
 
 `npm install -g pnpm`
-{% endhint %}
+::
 
 ### Cloning the repository
 
@@ -37,7 +37,7 @@ cd Cider\
 git checkout develop
 ```
 
-{% hint style="success" %}
+::alert{type="note" title="Success"}
 If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
@@ -67,9 +67,9 @@ yarn install
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
+::alert{type="note"}
 This step could take a little while on some machines.
-{% endhint %}
+::
 
 ### Compiling Cider
 
@@ -109,13 +109,13 @@ yarn dist -l --ia32
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
+::alert{type="warning"}
 On some low-end machines this process could take up to \~10 minutes.
-{% endhint %}
+::
 
-{% hint style="warning" %}
+::alert{type="warning"}
 This command would build three separate packages of Cider, AppImage, .deb, and .snap packages
-{% endhint %}
+::
 
 ### Compiling Cider from AUR
 
@@ -123,22 +123,22 @@ If you are on an arch-based Linux distribution and have an AUR helper (`pacman/y
 
 Assuming you already have access to the AUR and have a friendly AUR helper (we will use `yay` for this example) enter the following command to automatically obtain all required dependencies for installation.
 
-{% hint style="info" %}
+::alert{type="tip"}
 If you like to live on the bleeding edge, use the `cider-git` package, this will compile directly from the [main](https://github.com/ciderapp/Cider/tree/main) branch.
-{% endhint %}
+:;
 
 ```
 yay -S cider
 ```
 
-{% hint style="warning" %}
+::alert{type="warning"}
 Running this on Node.js 17 or later will fail. This is due to Node.js 17 no longer writing `openssl_fips` to `config.gypi` so it's not there in Node.js 17's `process.config`. It is suggested to downgrade to `nodejs-lts-gallium` to resolve this issue.
-{% endhint %}
+::
 
 ### Installing Cider
 
 Your new Cider installation setup file is ready for you! You can find your setup executable in your cloned folder directory on your system in the subfolder `dist/` and from there you'll see your new Setup files. Choose the installer that best matches your distro.
 
-{% hint style="success" %}
+::alert{type="note" title="Success"}
 Congrats! You've successfully compiled your own build of Cider!
-{% endhint %}
+::

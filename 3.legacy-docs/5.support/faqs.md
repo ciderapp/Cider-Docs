@@ -4,9 +4,9 @@ description: The main Frequently Asked Questions for Cider application support.
 
 # Troubleshooting FAQ
 
-{% hint style="info" %}
+::alert{type="info"}
 This is essential knowledge for the debugging process, please read these before creating an issue.
-{% endhint %}
+::
 
 ## How to find the Application Data Directory
 

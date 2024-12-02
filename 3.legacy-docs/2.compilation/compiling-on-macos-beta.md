@@ -18,15 +18,15 @@ Recommended / Required Development Utilities
 * Have an Apple Developer Account and be a member of the [Apple Developer Program](https://developer.apple.com/support/compare-memberships/). This is necessary to play music through the app.
 * Basic Command Line Knowledge
 
-{% hint style="warning" %}
+::alert{type="warning"}
 While not required, PNPM is **recommended** for compiling Cider, and you can install it by using:
 
 `npm install -g pnpm`
-{% endhint %}
+::
 
-{% hint style="danger" %}
+::alert{type="caution"}
 To remind you again, if you **don't** have an Apple Developer account to sign the Cider binary after building, it **WILL NOT** work.
-{% endhint %}
+::
 
 ### Cloning the repository
 
@@ -43,11 +43,11 @@ cd Cider/
 git checkout develop
 ```
 
-{% hint style="success" %}
+::alert{type="tip"}
 If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
-{% endhint %}
+::
 
 ### Installing Dependencies
 
@@ -73,9 +73,9 @@ yarn install
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
+::alert{type="note"}
 This step could take a little while on some machines.
-{% endhint %}
+::
 
 ### Create an account to VMP-sign Cider.
 
@@ -168,14 +168,14 @@ yarn dist:universalNotWorking -p never
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
+::alert{type="warning"}
 On some low-end machines this process could take up to \~20-30 minutes. (It will look like it hangs at the notarization part, don't exit it).
-{% endhint %}
+::
 
 ### Installing Cider
 
 Your new Cider installation setup file is ready for you! You can find your setup executable in your cloned folder directory on your system in the subfolder `dist/` and from there you'll see your new Setup file.
 
-{% hint style="success" %}
+::alert{type="note" title="Success"}
 Congrats! You've successfully compiled your own build of Cider!
-{% endhint %}
+::

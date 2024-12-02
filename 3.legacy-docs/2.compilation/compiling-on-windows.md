@@ -17,13 +17,13 @@ Recommended / Required Development Utilities
 * Basic Command Line Knowledge
 * [windows-build-tools](https://github.com/nodejs/node-gyp#on-windows)
 
-{% hint style="warning" %}
+::alert{type="warning"}
 While not required, PNPM is **recommended** for compiling Cider, and you can install it by using:
 
 `npm install -g pnpm`
-{% endhint %}
+::
 
-{% hint style="danger" %}
+::alert{type="caution"}
 You need windows-build-tools to be able to compile the native modules Cider uses for Windows. It should be installed with Node.js through the chocolatey package manager. If the installation fails you can install it using pnpm/npm in an **administrator** powershell/cmd window and entering:
 
 `pnpm install -g windows-build-tools`
@@ -31,7 +31,7 @@ You need windows-build-tools to be able to compile the native modules Cider uses
 `or`
 
 `npm install -g windows-build-tools`
-{% endhint %}
+::
 
 ### Cloning the repository
 
@@ -48,11 +48,11 @@ cd Cider/
 git checkout develop
 ```
 
-{% hint style="success" %}
+::alert{type="tip"}
 If you'd like to update your repository in the future to keep up to date, use the command _(Make sure you're in the directory, you originally cloned in)_
 
 `git pull`
-{% endhint %}
+::
 
 ### Installing Dependencies
 
@@ -78,9 +78,9 @@ yarn install
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
+::alert{type="tip"}
 This step could take a little while on some machines.
-{% endhint %}
+::
 
 ### Compiling Cider
 
@@ -120,14 +120,14 @@ yarn dist -w --ia32
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
+::alert{type="warning"}
 On some low-end machines this process could take up to \~5 minutes.
-{% endhint %}
+::
 
 ### Installing Cider
 
 Your new Cider installation setup file is ready for you! You can find your setup executable in your cloned folder directory on your system in the subfolder `dist/` and from there you'll see your new Setup file.
 
-{% hint style="success" %}
+::alert{type="note" title="Success"}
 Congrats! You've successfully compiled your own build of Cider!
-{% endhint %}
+::
